@@ -18,3 +18,7 @@
     opacity: 1;
   }
 }
+
+html:not(.dark) #particles-js {
+  filter: invert(1);
+}
